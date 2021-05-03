@@ -1,0 +1,117 @@
+h5{
+	font-size: 50px;
+margin: 0 auto;
+text-align: center;
+}
+
+
+.column-1,.column-2,.column-3 {
+  float: left;
+  width: auto;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+  margin-right: 2px;
+  margin-top: 50px;
+  margin-left: 2px;
+  background-color: #999999;
+  border: 2px solid black;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+#title2{
+	text-align: center;
+	padding:20px 5px 5px 5px 5px;
+	font-size: 20px;
+	background-color: #C14543;
+	width: 100px;
+	border: 1px solid black;
+	margin-top: -10px;
+	margin-right: -10px;
+	float: right;
+}
+#title1{
+	text-align: center;
+	padding:20px 0px 5px 5px 5px;
+	font-size: 20px;
+	background-color: #D59898;
+	width: 100px;
+	border: 1px solid black;
+	margin-top: -10px;
+	margin-right: -10px;
+	float: right;
+}
+#title3{
+	text-align: center;
+	padding:20px 0px 5px 5px 5px;
+	font-size: 20px;
+	background-color: #E5D198;
+	margin-top: -10px;
+	margin-right: -10px;
+	width: 100px;
+	border: 1px solid black;
+	float: right;
+}
+@media only screen and (min-width: 992px) {
+  .column-1,.column-2,.column-3{
+  	width: 30%;
+
+  }
+
+  	
+
+
+
+
+  
+}
+@media only screen and (max-width: 767px){
+
+
+.column-1,.column-2,.column-3{
+	width: 90%;
+
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	
+
+
+.column-1,.column-2{
+
+	width: 40%;
+
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+.column-3{
+	width: 85%;
+
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+
+
+
+
+}
